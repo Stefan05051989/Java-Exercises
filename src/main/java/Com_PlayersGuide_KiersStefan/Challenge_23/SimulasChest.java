@@ -25,7 +25,7 @@ The chest is unlocked. What do you want to do?
  */
 
 
-public class SimulasTest {
+public class SimulasChest {
     public static void main(String[] args)  {
         Scanner scanner = new Scanner(System.in);
         ChestState currentState = ChestState.valueOf(ChestState.LOCKED.toString());
@@ -53,35 +53,7 @@ public class SimulasTest {
             else if(currentState == ChestState.CLOSED && userInput.equals("lock")) {
                 currentState = ChestState.LOCKED;
             }
-             //return; TEST : with return statement, enum is only executed ones!
+            //return; TEST : with return statement, enum is only executed ones!
         }
     }
 }
-enum ChestState {
-    OPEN("open"), CLOSED("closed"), LOCKED("locked");
-
-    private String description;
-    private ChestState(String description){
-        this.description = description;
-    }
-}
-
-class ChestStateTwo{
-    // this is how an enum looks in the background
-    public static final ChestStateTwo OPEN = new ChestStateTwo("open", 1);
-    public static final ChestStateTwo CLOSED = new ChestStateTwo("closed", 2);
-    public static final ChestStateTwo LOCKED = new ChestStateTwo("locked", 3);
-
-    private String state;
-    private int priority;
-    private ChestStateTwo(String state, int priority) {
-        this.state = state;
-        this.priority = priority;
-    }
-    @Override
-    public String toString(){
-        return state.toLowerCase();
-    }
-}
-
-
