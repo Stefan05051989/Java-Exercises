@@ -8,6 +8,7 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea
 *.iws
 *.iml
 *.ipr
@@ -36,3 +37,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Local challenge folder (if you don't want it in the repo)
+Challenge_25/
