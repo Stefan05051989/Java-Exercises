@@ -38,5 +38,5 @@ build/
 ### Mac OS ###
 .DS_Store
 
-# Local challenge folder (if you don't want it in the repo)
-Challenge_25/
+.gitignore
+
