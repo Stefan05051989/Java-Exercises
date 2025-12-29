@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.Challenge_25_1;
+package Com_PlayersGuide_KiersStefan.Challenge_25;
 
 /**
  * Arrow

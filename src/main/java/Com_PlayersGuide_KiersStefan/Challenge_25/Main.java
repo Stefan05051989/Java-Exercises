@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.Challenge_25_1;
+package Com_PlayersGuide_KiersStefan.Challenge_25;
 import Com_PlayersGuide_KiersStefan.Challenge_20.TakingANumber;
 import java.util.Scanner;
 
