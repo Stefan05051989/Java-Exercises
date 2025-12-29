@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 
 
 public class LocalTimeExample {
-    void TimeExample(String[] args) {
+    public static void main (String[] args) {
         // Print local localDate using the localDate class
         // 1 : Create an object of local localDate, named localDate = acces the class of LocalDate with the "now" method.
         LocalDate localDate = LocalDate.now();
