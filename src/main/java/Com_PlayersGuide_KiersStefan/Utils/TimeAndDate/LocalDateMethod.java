@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class LocalDateMethod {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
         // Also, a combination of date and time :
         LocalDateTime dateTime = LocalDateTime.now();
@@ -18,6 +17,5 @@ public class LocalDateMethod {
         String newDateTime = dateTime.format(dateTimeFormatter);
         System.out.println("Date  : " + newDateTime);
 
-        scanner.close();
     }
 }

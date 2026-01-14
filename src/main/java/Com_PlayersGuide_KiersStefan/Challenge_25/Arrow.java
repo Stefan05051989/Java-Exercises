@@ -7,12 +7,12 @@ package Com_PlayersGuide_KiersStefan.Challenge_25;
  * @author Stefan Kiers
  * @since 29-12-2025
  */
-final class Arrow {
+public final class Arrow {
     private final int arrowLength;
     private final Arrowhead selectedArrowhead;
     private final Fletching selectedFletching;
 
-    Arrow(int arrowLength, Arrowhead selectedArrowhead, Fletching selectedFletching) {
+    public Arrow(int arrowLength, Arrowhead selectedArrowhead, Fletching selectedFletching) {
         this.arrowLength = arrowLength;
         this.selectedArrowhead = selectedArrowhead;
         this.selectedFletching = selectedFletching;

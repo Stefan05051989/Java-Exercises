@@ -1,5 +1,6 @@
 package Com_PlayersGuide_KiersStefan.Challenge_25;
 import Com_PlayersGuide_KiersStefan.Challenge_20.TakingANumber;
+
 import java.util.Scanner;
 
 /**
@@ -19,7 +20,7 @@ public class Main {
         System.out.println("Choose your arrows as you wish.");
         System.out.println();
 
-        int arrowLength = TakingANumber.AskForNumber(scanner, "Choose the length for the shaft : ",
+        int arrowLength = TakingANumber.AskForNumber(scanner, "Choose the length for the shaft -> ",
                 60, 100);
 
         System.out.println("Your choice : " + arrowLength);
