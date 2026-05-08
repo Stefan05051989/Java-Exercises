@@ -17,13 +17,13 @@ public final class Arrow {
         this.selectedArrowhead = selectedArrowhead;
         this.selectedFletching = selectedFletching;
     }
-    private int getArrowLength() {
+    public int getArrowLength() {
         return arrowLength;
     }
-    private Arrowhead getSelectedArrowhead() {
+    public Arrowhead getSelectedArrowhead() {
         return selectedArrowhead;
     }
-    private Fletching getSelectedFletching() {
+    public Fletching getSelectedFletching() {
         return selectedFletching;
     }
     public float getCost() {

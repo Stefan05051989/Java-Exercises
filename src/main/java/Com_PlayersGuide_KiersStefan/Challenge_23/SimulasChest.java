@@ -28,7 +28,7 @@ The chest is unlocked. What do you want to do?
 public class SimulasChest {
     public static void main(String[] args)  {
         Scanner scanner = new Scanner(System.in);
-        ChestState currentState = ChestState.valueOf(ChestState.LOCKED.toString());
+        ChestState currentState = ChestState.LOCKED;
 
         /*
         And enum is a special class (enumerated / ordered listing) that represents a group of constants (final variables).

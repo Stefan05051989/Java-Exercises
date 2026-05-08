@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.Utils.InheritanceExample;
+package Com_PlayersGuide_KiersStefan.ClassAssignments.InheritanceExample;
 /*
 The vehicle is the parent class (Superclass) of the Car and the Motorcycle.
 In this class, the attributes and behaviour is defined.

@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.Utils.OddEvenTest;
+package Com_PlayersGuide_KiersStefan.ClassAssignments.OddEvenTest;
 
 public class Exponent {
     public static int exponent(int base, int exp){

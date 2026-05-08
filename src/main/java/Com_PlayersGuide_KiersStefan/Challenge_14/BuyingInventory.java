@@ -1,7 +1,7 @@
 package Com_PlayersGuide_KiersStefan.Challenge_14;
-import static Com_PlayersGuide_KiersStefan.Utils.DiscountCalculator.DiscountCalculator.ApplyDiscount;
-import static Com_PlayersGuide_KiersStefan.Utils.DiscountCalculator.DiscountCalculator.employeeDiscount;
-import Com_PlayersGuide_KiersStefan.Utils.GrocerieList.Products;
+import static Com_PlayersGuide_KiersStefan.Challenge_14.Utils.DiscountCalculator.applyDiscount;
+import static Com_PlayersGuide_KiersStefan.Challenge_14.Utils.DiscountCalculator.employeeDiscount;
+import Com_PlayersGuide_KiersStefan.Challenge_14.Utils.Products;
 import java.util.Scanner;
 
 
@@ -78,8 +78,8 @@ public class BuyingInventory {
             //The representation is exactly the one returned by the Integer.toString method of one argument.
             // String result = String.valueOf(MakeChoice.getPrice(choice));
             double price = Products.getPrice(choice);
-            double result = ApplyDiscount(discountPercentage, price);
-            System.out.println(result);
+            double result = applyDiscount(discountPercentage, price);
+            System.out.println("Price " + result + " gold.");
 
             // check if user wants to see another item :
             System.out.println("Would you like to see another product ? (Y/N) : ");

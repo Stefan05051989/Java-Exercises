@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.Utils.InheritanceExample;
+package Com_PlayersGuide_KiersStefan.ClassAssignments.InheritanceExample;
 /*
 The car class is a subclasses (child class) from the Superclass (also parent class) Vehicle.
  */

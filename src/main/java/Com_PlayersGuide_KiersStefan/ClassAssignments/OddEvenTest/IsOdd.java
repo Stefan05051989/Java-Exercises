@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.Utils.OddEvenTest;
+package Com_PlayersGuide_KiersStefan.ClassAssignments.OddEvenTest;
 
 public class IsOdd {
     public static boolean isOdd(int result){

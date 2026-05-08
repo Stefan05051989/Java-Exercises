@@ -1,8 +1,8 @@
-package Com_PlayersGuide_KiersStefan.Utils.OddEvenTest;
+package Com_PlayersGuide_KiersStefan.ClassAssignments.OddEvenTest;
 
 import java.util.Scanner;
-import static Com_PlayersGuide_KiersStefan.Utils.OddEvenTest.Exponent.exponent;
-import static Com_PlayersGuide_KiersStefan.Utils.OddEvenTest.IsOdd.isOdd;
+import static Com_PlayersGuide_KiersStefan.ClassAssignments.OddEvenTest.Exponent.exponent;
+import static Com_PlayersGuide_KiersStefan.ClassAssignments.OddEvenTest.IsOdd.isOdd;
 
 public class Main {
     public static void main(String[] args) {

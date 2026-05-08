@@ -29,7 +29,7 @@ public class Main {
                 mainIngredient = MainIngredient.valueOf(userChoice.nextLine().toUpperCase());
             }catch (IllegalArgumentException e ){
                 System.out.println("Invalid ingredient, try again");
-                System.out.println("Choose main ingredient : (SOUP, STEW, GUMBO)");
+                System.out.println("Choose main ingredient : (MUSHROOMS, CHICKEN, CARROTS, POTATOES)");
             }
         }
         System.out.println("Choose seasoning : (SPICY, SALTY, SWEET)");
@@ -39,7 +39,7 @@ public class Main {
                 seasoning = Seasoning.valueOf(userChoice.nextLine().toUpperCase());
             }catch (IllegalArgumentException e ){
                 System.out.println("Invalid seasoning choice, try again");
-                System.out.println("Choose soup type : (SOUP, STEW, GUMBO)");
+                System.out.println("Choose seasoning : (SPICY, SALTY, SWEET)");
             }
         }
 

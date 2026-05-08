@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.Utils.InheritanceExample;
+package Com_PlayersGuide_KiersStefan.ClassAssignments.InheritanceExample;
 /*
 specific example of inheritance using a parent class (Car), while Car is also the child of Vehicle.
  */

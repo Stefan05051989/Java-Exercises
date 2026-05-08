@@ -1,7 +1,7 @@
 package Com_PlayersGuide_KiersStefan.Challenge_22;
 import Com_PlayersGuide_KiersStefan.Challenge_16.ThePrototype;
 import Com_PlayersGuide_KiersStefan.Challenge_17.TheMagicCanon;
-import Com_PlayersGuide_KiersStefan.Challenge_22.TakingANumberHTM;
+import Com_PlayersGuide_KiersStefan.Challenge_20.TakingANumber;
 import Com_PlayersGuide_KiersStefan.Utils.Colours.Colours;
 import java.util.Scanner;
 
@@ -48,7 +48,7 @@ public class HuntingManticoreGame {
 
             TheMagicCanon.Blast blast = canon.fire();
             System.out.println("Canon is expected to deal " + blast.damage + " this round!");
-            int target = TakingANumberHTM.AskForNumber(scanner,"Guess the location for the manticore ", 0, 100);
+            int target = TakingANumber.AskForNumber(scanner,"Guess the location for the manticore ", 0, 100);
 
                 if (target < manticoreLocation) {
                     System.out.println("Too low, guess again!");

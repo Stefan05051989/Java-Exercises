@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.Utils.GrocerieList;
+package Com_PlayersGuide_KiersStefan.Challenge_14.Utils;
 
 import java.util.LinkedList;
 /*
@@ -25,7 +25,7 @@ The LL has a few different methods to adjust the LL more efficiently ;
 // class declaration
 public class Products {
     // make list private so nobody can change it.
-    LinkedList<String> productList;
+    private LinkedList<String> productList;
 
     // method declaration
     public Products() {

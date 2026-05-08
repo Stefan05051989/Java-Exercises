@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.Utils.DiscountCalculator;
+package Com_PlayersGuide_KiersStefan.Challenge_14.Utils;
 import java.util.ArrayList;
 
 /*
@@ -11,8 +11,8 @@ public class DiscountCalculator {
         // Create ArrayList for staff.
         ArrayList<String> staffMembers = new ArrayList<>();
         staffMembers.add("stefan");
-        staffMembers.add("joris");
-        staffMembers.add("siem");
+        staffMembers.add("carlo");
+        staffMembers.add("marijn");
 
         // check if staff :
 //        System.out.println("Enter your name : ");
@@ -26,7 +26,7 @@ public class DiscountCalculator {
     }
 
     // calculate discount for personal.
-    public static double ApplyDiscount (int discountPercentage, double price) {
-        return price * discountPercentage / 100;
+    public static double applyDiscount(int discountPercentage, double price) {
+        return price - (price * discountPercentage / 100.0);
     }
 }

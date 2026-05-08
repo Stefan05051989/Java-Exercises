@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.Utils.InheritanceExample;
+package Com_PlayersGuide_KiersStefan.ClassAssignments.InheritanceExample;
 /*
 Child class from the parent "vehicle"
  */

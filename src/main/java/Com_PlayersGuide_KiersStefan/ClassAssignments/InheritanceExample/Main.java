@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.Utils.InheritanceExample;
+package Com_PlayersGuide_KiersStefan.ClassAssignments.InheritanceExample;
 
 /*
 Example to learn about Inheritance in java

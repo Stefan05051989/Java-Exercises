@@ -61,7 +61,7 @@ public class Main {
 
         int fletchingChoice = scanner.nextInt();
         Fletching selectedFletching;
-        switch (arrowHeadChoice) {
+        switch (fletchingChoice) {
             case 1:
                 selectedFletching = Fletching.PLASTIC;
                 break;
@@ -76,7 +76,7 @@ public class Main {
                 scanner.close();
                 return;
         }
-        System.out.println("Selected arrowhead : " + selectedFletching);
+        System.out.println("Selected fletching : " + selectedFletching);
         System.out.println();
 
         // create arrow and display cost.
