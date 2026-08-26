@@ -1,4 +1,4 @@
-package ClassAssignments.Fibonacci;
+package ClassAssignments;
 import static Com_PlayersGuide_KiersStefan.Utils.Fibonacci.FibonacciFormula.fibonacci;
 import java.util.Scanner;
 

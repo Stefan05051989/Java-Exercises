@@ -1,4 +1,4 @@
-package ClassAssignments.LoopAssignments;
+package ClassAssignments;
 /*
 Stefan Kiers
 01-07-2025
@@ -15,7 +15,7 @@ public class Chessboard {
         for (j = 8; j > 0; j--) { // print 8 t/m 1 van boven naar beneden (1 kolom)
             for (i = 1; i < 9; i++) { // print 1 t/m in rijen van links naar rechts
                 char letter = (char) ('a' + (i - 1));
-                System.out.print("(" + letter + "," + j + ")");
+                System.out.print("[" + letter + "," + j + "]");
 
             }
             System.out.println();

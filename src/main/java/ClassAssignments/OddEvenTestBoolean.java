@@ -1,4 +1,4 @@
-package ClassAssignments.Exponent;
+package ClassAssignments;
 
 /*
 Stefan Kiers

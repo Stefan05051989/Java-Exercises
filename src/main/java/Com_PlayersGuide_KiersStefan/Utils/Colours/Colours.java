@@ -3,8 +3,7 @@ package Com_PlayersGuide_KiersStefan.Utils.Colours;
 /*
 Stefan Kiers
 26-06-'25
-
-This class contains all the colours available to print.
+Class for calling colours and specific print methods
  */
 
 public class Colours {
@@ -80,4 +79,46 @@ public class Colours {
     public static final String PURPLE_BACKGROUND_BRIGHT = "\033[0;105m"; // PURPLE
     public static final String CYAN_BACKGROUND_BRIGHT = "\033[0;106m";  // CYAN
     public static final String WHITE_BACKGROUND_BRIGHT = "\033[0;107m";   // WHITE
+
+    // ChessBoardTwo colors.
+    public static final String LIGHT_BACKGROUND = "\u001B[47m";
+    public static final String DARK_BACKGROUND = "\u001B[100m";
+    public static final char[] FILES = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
+
+    // tekststijlen!
+    public static final String ITALIC = "\033[3m";
+    public static final String BLINK = "\033[5m";
+    public static final String STRIKETHROUGH = "\033[9m";
+    public static final String BOLD = "\033[1m";
+    public static final String DIM = "\033[2m";
+    public static final String UNDERLINE = "\033[4m";
+    public static final String REVERSED = "\033[7m";
+    public static final String HIDDEN = "\033[8m";
+    public static final String DOUBLE_UNDERLINE = "\033[21m";
+    public static final String OVERLINE = "\033[53m";
+
+    // style resets!
+    public static final String BOLD_OFF = "\033[22m";
+    public static final String ITALIC_OFF = "\033[23m";
+    public static final String UNDERLINE_OFF = "\033[24m";
+    public static final String BLINK_OFF = "\033[25m";
+    public static final String REVERSED_OFF = "\033[27m";
+    public static final String HIDDEN_OFF = "\033[28m";
+    public static final String STRIKETHROUGH_OFF = "\033[29m";
+
+    // default colours :
+    public static final String DEFAULT_FOREGROUND = "\033[39m";
+    public static final String DEFAULT_BACKGROUND = "\033[49m";
+
+
+    // True color / RGB (24 bit)
+    // call from other class example :  Static import : System.out.println(color256(196) + "Dit is fel rood" + RESET);
+    //                                  Full className : System.out.println(Colours.color256(196) + "Dit is fel rood" + Colours.RESET);
+    public static String color256(int code) {
+        return "\033[38;5;" + code + "m";
+    }
+
+    public static String backgroundColor256(int code) {
+        return "\033[48;5;" + code + "m";
+    }
 }

@@ -1,4 +1,4 @@
-package ClassAssignments.CaesersCode;
+package ClassAssignments;
 
 /*
 Stefan kiers

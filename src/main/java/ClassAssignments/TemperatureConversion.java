@@ -1,4 +1,4 @@
-package ClassAssignments.TemperatureConverter;
+package ClassAssignments;
 import java.util.Scanner;
 
 /*

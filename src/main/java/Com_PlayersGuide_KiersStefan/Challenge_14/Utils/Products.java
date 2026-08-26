@@ -51,12 +51,14 @@ public class Products {
                 return 15;
             case 3:
                 return 25;
-            case 4, 7:
+            case 4:
                 return 1;
             case 5:
                 return 20;
             case 6:
                 return 200;
+            case 7 :
+                return 1;
             default:
                 System.out.println("Input unknown, choose items from list 1 to 7 : ");
                 return 0;
@@ -84,12 +86,12 @@ public class Products {
         /*
         Why use StringBuilder :
         StringBuilder is more efficient and looks cleaner than this :
-        String result = "Products available : "+ product1 + "\n" + product2 + "\n" + products3 etc etc.
+        String result = "main available : "+ product1 + "\n" + product2 + "\n" + products3 etc etc.
          */
         // create stringbuilder
         StringBuilder stringBuilder = new StringBuilder();
         // append adss txt to what's allready there.
-        stringBuilder.append("Products available : ");
+        stringBuilder.append("main available : ");
         // enhanced for loop :
         // Takes each item from the product list one at a time.
         for (String product : productList) {

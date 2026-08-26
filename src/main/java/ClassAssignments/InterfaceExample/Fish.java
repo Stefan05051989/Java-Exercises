@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.ClassAssignments.InterfaceExample;
+package ClassAssignments.InterfaceExample;
 
 public class Fish {
 }

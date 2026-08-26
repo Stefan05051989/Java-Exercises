@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.CodingExerciseAnalyzer;
+package CodingExerciseAnalyzer;
 
 /**
  * Challenge_15_BigJava
@@ -17,14 +17,14 @@ public class Challenge_15_BigJava {
                    J  J  aaaaa   V V  aaaaa
                     JJ  a     a   V  a     a
          */
-        System.out.println("""
-                JJ      AA      VV       VV     AA
-                JJ     AA AA     VV     VV     AA AA
-                JJ    AAAAAAA     VV   VV     AAAAAAA
-           JJ   JJ   AA     AA     VV VV     AA     AA
-             JJJ    AA       AA     VV      AA       AA
+        System.out.println(
+                "JJ      AA      VV       VV     AA\n"+
+                "JJ     AA AA     VV     VV     AA AA\n"+
+                "JJ    AAAAAAA     VV   VV     AAAAAAA\n"+
+           "JJ   JJ   AA     AA     VV VV     AA     AA\n"+
+             "JJJ    AA       AA     VV      AA       AA\n"
              
              
-                """);
+                );
     }
 }

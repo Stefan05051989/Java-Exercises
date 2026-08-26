@@ -1,6 +1,10 @@
-package ClassAssignments.PrintArray;
-import ClassAssignments.WholePositiveNumber.NaturalPositiveNumber;
+package ClassAssignments;
 
+import ClassAssignments.Exceptions.InputValidator;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+import Utils.Strings.StringUtils;
 /*
 Stefan Kiers
 08-07-'25
@@ -20,14 +24,22 @@ Have the program print the contents of the array in a graphical form,
  */
 
 
-import java.util.ArrayList;
-
 public class PrintArray {
     public static void main(String[] args) {
-        // call  method + signature from Natural number classs
-        ArrayList<Integer> userInput = NaturalPositiveNumber.AskPositiveNumber();
-        // print array to string method for printing as array
-        Integer[] array = userInput.toArray(userInput.toArray(new Integer[0]));
-        System.out.println("Input from user : " + userInput);
+        Scanner input = new Scanner(System.in);
+        final int NUM_ITEMS = InputValidator.askForNonNegativeNumber(input, "How many items? \nInput : ");
+
+        ArrayList<Integer> items = new ArrayList<>();
+        for (int i = 1; i <= NUM_ITEMS; i++) {
+            int value = InputValidator.askForNonNegativeNumber(input, "Please enter " + i + " : ");
+            items.add(value);
+        }
+        System.out.println(items);
+
+        // bonus
+        for(int value : items) {
+            System.out.println(StringUtils.repeat("*", value) + " (" + value + ") ");
+        }
     }
 }
+

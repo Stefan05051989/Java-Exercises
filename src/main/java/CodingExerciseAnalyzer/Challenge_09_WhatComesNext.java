@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.CodingExerciseAnalyzer;
+package CodingExerciseAnalyzer;
 
 /**
  * Challenge_09_WhatComesNext

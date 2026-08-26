@@ -1,4 +1,4 @@
-package ClassAssignments.LucasNumber;
+package ClassAssignments;
 import static Com_PlayersGuide_KiersStefan.Utils.Lucas.LucasFormula.lucasFormula;
 import java.util.Scanner;
 

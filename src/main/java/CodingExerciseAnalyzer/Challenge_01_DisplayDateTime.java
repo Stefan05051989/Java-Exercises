@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.CodingExerciseAnalyzer;
+package CodingExerciseAnalyzer;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

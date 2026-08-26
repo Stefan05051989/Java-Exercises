@@ -1,4 +1,4 @@
-package ClassAssignments.Palindroom;
+package ClassAssignments;
 
 /*
 Stefan Kiers

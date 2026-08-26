@@ -1,4 +1,4 @@
-package ClassAssignments.Utils;
+package Utils;
 
 /**
  * FillerClass

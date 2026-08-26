@@ -1,4 +1,4 @@
-package ClassAssignments.DrivinCar;
+package ClassAssignments;
 
 /*
 Stefan Kiers
@@ -10,8 +10,6 @@ Write a program that tells you whether you are allowed to drive a car:
 - Do you not have a driver's license? Then you are never allowed to drive.
     Write the correct if/else-statement for this
  */
-
-import java.util.Scanner;
 
 public class CanIDrive {
     public static void main(String[] args) {

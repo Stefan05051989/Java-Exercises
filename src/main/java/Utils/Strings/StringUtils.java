@@ -1,4 +1,4 @@
-package ClassAssignments.Utils.Strings;
+package Utils.Strings;
 
 /**
  * StringUtils

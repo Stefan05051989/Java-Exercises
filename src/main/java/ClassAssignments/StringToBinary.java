@@ -1,4 +1,4 @@
-package ClassAssignments.StringToBinary;
+package ClassAssignments;
 /*
 
 Stefan Kiers

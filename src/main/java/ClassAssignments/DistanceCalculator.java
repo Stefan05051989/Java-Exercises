@@ -1,4 +1,4 @@
-package ClassAssignments.DistanceCalculator;
+package ClassAssignments;
 import java.util.Scanner;
 
 /*

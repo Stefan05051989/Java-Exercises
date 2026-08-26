@@ -1,4 +1,4 @@
-package Com_PlayersGuide_KiersStefan.ClassAssignments.LightSwitch;
+package ClassAssignments.LightSwitch;
 
 public class Main {
     public static void main(String[] args) {

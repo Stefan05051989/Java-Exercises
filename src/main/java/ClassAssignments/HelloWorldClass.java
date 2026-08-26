@@ -1,4 +1,4 @@
-package ClassAssignments.HelloWorld;
+package ClassAssignments;
 
 /*
 Stefan Kiers

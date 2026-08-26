@@ -1,4 +1,4 @@
-package ClassAssignments.LoopAssignments;
+package ClassAssignments;
 
 /*
 Stefan Kiers
